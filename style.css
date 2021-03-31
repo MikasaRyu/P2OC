@@ -1,0 +1,42 @@
+/* Body */
+
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: raleway, arial, serif;
+	font-weight: normal;
+}
+
+/* Header */
+
+header
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+/* Menu Nav */
+
+nav ul
+{
+	list-style-type: none; /*retire les puces*/
+	display: flex;
+}
+
+nav li
+{
+	margin: 30px;
+}
+
+.container__nav1 a
+{
+	color: blue;
+	text-decoration: none;
+}
+
+.container__nav2 a
+{
+	color: black;
+	text-decoration: none;
+}
