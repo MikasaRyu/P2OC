@@ -133,6 +133,7 @@ header
 	margin-right: 20px;
 	font-size: 1.2em;
 	font-weight: bold;
+	margin-left: 10px;
 }
 
 #container__principal2
@@ -201,6 +202,6 @@ header
 
 .container__principal2__div p
 {
-	margin-left: 10px;
+	margin-left: 15px;
 	font-size: 1em;
 }
