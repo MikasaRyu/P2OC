@@ -136,44 +136,33 @@ header
 	margin-left: 10px;
 }
 
-#container__principal2
-{
-	margin-top: 20px;
-	display: flex;
-	flex-wrap: wrap;
-}
-
-#container__principal2 div
+.filter
 {
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
+	border: solid 3px #F2F2F2 ;
+	border-radius: 40px;
+	border-left: none;
+	margin: 15px;
+	padding-right: 15px;
+
 }
 
 #container__principal2 a
 {
 	text-decoration: none;
-	border: solid 3px #F2F2F2 ;
-	border-radius: 40px;
-	border-left: none;
-	height: auto;
-	width: auto;
-	margin: 15px;
-	padding-right: 15px;
 	font-weight: bold;
 	font-size: 1.2em;
 }
 
 #container__principal2 .filter i
 {
-	width: 15px;
-	height: 15px;
 	text-align: center;
 	color: #0065FC;
-	border: solid 1px #F2F2F2 ;
-	padding: 17px;
-	border-radius: 30px;
+	padding: 22px;
+	border-radius: 100%;
 	background-color: #DEEBFF;
+	margin: -3px;
 }
 
 #container__principal2 .filter span
@@ -183,13 +172,22 @@ header
 	font-weight: bold;
 }
 
-.container__principal2__div
+.container__filtres
 {
-	align-self: flex-end;
-	flex-basis: 1000px;
+	display: flex;
+	align-items: center;
+	max-width: 1100px;
+	margin-left: 10px;
 }
 
-.container__principal2__div i
+.container__info
+{
+	display: flex;
+	align-items: center;
+	margin: 0 0 20px 10px;
+}
+
+.container__info i
 {
 	color: #0065FC;
 	width: 7px;
@@ -200,8 +198,50 @@ header
 	border-radius: 15px;
 }
 
-.container__principal2__div p
+.container__info p
 {
-	margin-left: 15px;
+	margin: 0 0 0 10px;
 	font-size: 1em;
 }
+
+.container__filtres .filter:last-child span:last-child 
+{
+	width: 180px;
+}
+
+/*Section Hebergement à marseille*/
+
+.container__principal1
+{
+	width: 1050px;
+	height: 720px;
+	background-color: #F2F2F2;
+	border-radius: 20px;
+	padding: 15px;
+	margin: 15px;
+	
+}
+
+.container__principal1__div
+{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.container__principal1__figure img
+{
+	width: 260px;
+	height: 170px;
+	border-radius: 20px 20px 0 0;
+	background-size: cover;
+}
+
+.container__principal1__figure
+{
+	background-color: white;
+	border-radius: 20px ;
+	padding: 5px;
+}
+
+
