@@ -204,44 +204,184 @@ header
 	font-size: 1em;
 }
 
-.container__filtres .filter:last-child span:last-child 
+.large
 {
 	width: 180px;
 }
 
-/*Section Hebergement à marseille*/
+/*Section Hebergement à marseille et Aside les plus populaires*/
 
 .container__principal1
 {
-	width: 1050px;
-	height: 720px;
-	background-color: #F2F2F2;
-	border-radius: 20px;
-	padding: 15px;
-	margin: 15px;
-	
-}
-
-.container__principal1__div
-{
 	display: flex;
 	align-items: center;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 }
 
-.container__principal1__figure img
-{
-	width: 260px;
-	height: 170px;
-	border-radius: 20px 20px 0 0;
-	background-size: cover;
-}
+				/*Div Hebergements à Marseille*/
 
-.container__principal1__figure
-{
-	background-color: white;
-	border-radius: 20px ;
-	padding: 5px;
-}
+				.container__principal1__div1
+				{
+					width: 60%;
+					height: 650px;
+					background-color: #F2F2F2;
+					border-radius: 20px;
+					padding: 15px;
+					margin: 15px;
+				}
+
+				.container__principal1__div1 h2
+				{
+					font-size: 1.4em;
+					margin-left: 20px;
+				}
+
+				#more
+				{
+					margin: 20px;
+				}
+
+				#more a
+				{
+					text-decoration: none;
+					color: black;
+					font-weight: bold;
+					font-size: 1.2em;
+				}
+
+				.container__principal1__div2
+				{
+					display: flex;
+					align-items: center;
+					flex-wrap: wrap;
+					width: 100%;
+				}
+
+				.container__principal1__figure img
+				{
+					width: 100%;
+					height: 140px;
+					border-radius: 20px 20px 0 0;
+					object-fit: cover;
+				}
+
+				.container__principal1__figure
+				{
+					background-color: white;
+					border-radius: 20px ;
+					padding: 5px;
+					width: 280px;
+					margin: 15px;
+				}
+
+				.container__principal1__div2 a
+				{
+					text-decoration: none;
+				}
+
+				.container__principal1__div2 i
+				{
+					color: #0065FC;
+					font-size: 0.8em;
+				}
+
+				.container__principal1__div2 figcaption
+				{
+					color: black;
+					margin-top: 5px;
+					font-size: 1.1em;
+				}
+
+				.container__principal1__div2 figcaption p:first-child
+				{
+					font-weight: bold;
+				}
+
+				.container__principal1__div2 p
+				{
+					margin: 5px;
+				}
 
 
+
+
+				/*Aside les plus populaires*/
+
+				#title
+				{
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+					width: 400px;
+					margin-top: 15px;
+				}
+				
+				#title h2
+				{
+					font-size: 1.4em;
+					text-align: left;
+				}
+
+				#title i
+				{
+					font-size: 1.4em;
+				}
+
+				.container__principal1 aside
+				{
+					width: 30%;
+					background-color: #F2F2F2;
+					border-radius: 20px;
+					height: 680px;
+					display: flex;
+					flex-direction: column;
+				}
+
+				.container__secondaire1__figure
+				{
+					display: flex;
+					background-color: white;
+					border-radius: 20px ;
+					padding: 5px;
+					width: 385px;
+					height: 150px;
+					margin: 15px;
+				}
+
+				.container__secondaire1__figure img
+				{
+					width: 40%;
+					height: 100%;
+					border-radius: 20px 0 0 20px;
+					object-fit: cover;
+				}
+
+				.container__secondaire1__figure i
+				{
+					color: #0065FC;
+					font-size: 0.8em;
+					margin-top: 35px;
+				}
+
+				.container__principal1 a
+				{
+					text-decoration: none;
+				}
+
+				.container__secondaire1__figure figcaption
+				{
+					color: black;
+					margin-top: 5px;
+					font-size: 1.1em;
+				}
+
+				.container__secondaire1__figure figcaption p:first-child
+				{
+					font-weight: bold;
+				}
+
+
+				.container__secondaire1__figure p
+				{
+					margin: 5px 50px 10px 15px ;
+				}
