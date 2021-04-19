@@ -8,12 +8,18 @@ body
 	font-weight: normal;
 }
 
+header, main
+{
+	margin: 0 40px 0 40px;
+}
+
 /* Header */
 
 header
 {
 	display: flex;
 	justify-content: space-between;
+	margin-top: 0;
 }
 
 			/* Logo Reservia*/
@@ -23,7 +29,7 @@ header
 				margin: 10px;
 				width: 100px; 
 				height: 45px;
-				margin-top: 30px;
+				margin-top: 25px;
 			}
 
 
@@ -33,11 +39,12 @@ header
 			{
 				list-style-type: none; /*retire les puces*/
 				display: flex;
+				margin-top: 0;
 			}
 
 			nav li
 			{
-				margin: 30px;
+				margin: 0 30px 30px 30px;
 			}
 
 			nav a
@@ -60,6 +67,21 @@ header
 			header ul li:last-of-type
 			{
 				font-weight: bold;
+			}
+
+			.container__nav1, .container__nav2
+			{
+				padding-top: 50px;
+			}
+
+			.container__nav1:hover
+			{
+				border-top: solid #0065FC 4px;
+			}
+
+			.container__nav2:hover
+			{
+				border-top: solid black 4px;
 			}
 
 /* Section localisation recherche*/
@@ -223,7 +245,9 @@ header
 				.container__principal1__div1
 				{
 					width: 60%;
-					height: 650px;
+					min-width: 990px;
+					max-width: 1319px;
+					height: 670px;
 					background-color: #F2F2F2;
 					border-radius: 20px;
 					padding: 15px;
@@ -255,6 +279,7 @@ header
 					align-items: center;
 					flex-wrap: wrap;
 					width: 100%;
+					justify-content: center;
 				}
 
 				.container__principal1__figure img
@@ -271,18 +296,13 @@ header
 					border-radius: 20px ;
 					padding: 5px;
 					width: 280px;
-					margin: 15px;
+					margin: 20px;
+					box-shadow: 2px 3px 20px grey;
 				}
 
 				.container__principal1__div2 a
 				{
 					text-decoration: none;
-				}
-
-				.container__principal1__div2 i
-				{
-					color: #0065FC;
-					font-size: 0.8em;
 				}
 
 				.container__principal1__div2 figcaption
@@ -300,6 +320,19 @@ header
 				.container__principal1__div2 p
 				{
 					margin: 5px;
+				}
+
+				.container__principal1__figure .fa-star
+				{
+					color: #0065FC;
+					font-size: 0.8em;
+				}
+
+				.container__principal1__figure .far
+				{
+					color: #F2F2F2;
+					font-size: 0.8em;
+					font-weight: 900;
 				}
 
 
@@ -330,11 +363,14 @@ header
 				.container__principal1 aside
 				{
 					width: 30%;
+					min-width: 477px;
+					max-width: 643px;
 					background-color: #F2F2F2;
 					border-radius: 20px;
-					height: 680px;
+					height: 700px;
 					display: flex;
 					flex-direction: column;
+					margin: 15px;
 				}
 
 				.container__secondaire1__figure
@@ -344,8 +380,9 @@ header
 					border-radius: 20px ;
 					padding: 5px;
 					width: 385px;
-					height: 150px;
+					height: 160px;
 					margin: 15px;
+					box-shadow: 2px 3px 20px grey;
 				}
 
 				.container__secondaire1__figure img
@@ -356,11 +393,19 @@ header
 					object-fit: cover;
 				}
 
-				.container__secondaire1__figure i
+				.container__secondaire1__figure .fa-star
 				{
 					color: #0065FC;
 					font-size: 0.8em;
-					margin-top: 35px;
+					margin-top: 40px;
+				}
+
+				.container__secondaire1__figure .far
+				{
+					color: #F2F2F2;
+					font-size: 0.8em;
+					margin-top: 40px;
+					font-weight: 900;
 				}
 
 				.container__principal1 a
@@ -373,6 +418,7 @@ header
 					color: black;
 					margin-top: 5px;
 					font-size: 1.1em;
+					width: 230px;
 				}
 
 				.container__secondaire1__figure figcaption p:first-child
@@ -385,6 +431,131 @@ header
 				{
 					margin: 5px 50px 10px 15px ;
 				}
+
+/*Section Activités à marseille*/
+
+.container__principal2__div1
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.container__principal2__div1 a
+{
+	text-decoration: none;
+	
+}
+
+.container__principal2__div1 p
+{
+	font-weight: bold;
+	font-size: 1.1em;
+	color: black;
+	margin: 20px;
+}
+
+.container__principal2 h2
+{
+	font-size: 1.4em;
+	margin-left: 20px;
+}
+
+.container__principal2 a
+{
+	margin: 0;/*valeur neg ?*/
+}
+
+				/* figure 1 : Vieux port + parc des calanques*/
+
+				.container__principal2__figure1
+				{
+					width: 370px;
+					height: 580px;
+				}
+
+				.container__principal2__figure1 figure
+				{
+					border-radius: 20px;
+					box-shadow: 2px 3px 20px grey;
+					height: 100%;
+					margin: 0;
+				}
+
+				.container__principal2__figure1 img
+				{
+					width: 100%;
+					height: 88%;
+					border-radius: 20px 20px 0 0;
+					object-fit: cover;
+				}
+			
+
+.container__principal2__div2
+{
+	width: 370px;
+	height: 580px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+
+
+}
+
+				/* figure 2 :*/
+
+				.container__principal2__figure2
+				{
+					width: 100%;
+					height: 60%;
+				}
+
+				.container__principal2__figure2 figure
+				{
+					border-radius: 20px;
+					box-shadow: 2px 3px 20px grey;
+					margin: 0;
+				}
+
+				.container__principal2__figure2 figure img
+				{
+					width: 100%;
+					height: 80%;
+					border-radius: 20px 20px 0 0;
+					object-fit: cover;
+
+				}
+
+
+				/* figure 3 : */
+
+				.container__principal2__figure3
+				{
+					width: 100%;
+					height: 30%;
+				}
+				
+				.container__principal2__figure3 figure
+				{
+					border-radius: 20px;
+					box-shadow: 2px 3px 20px grey;
+					margin: 0;
+				}
+
+				.container__principal2__figure3 img
+				{
+					width: 100%;
+					height: 62%;
+					border-radius: 20px 20px 0 0;
+					object-fit: cover;
+				} 
+
+				/*Container left*/
+				
+
+
+
 
 
 
