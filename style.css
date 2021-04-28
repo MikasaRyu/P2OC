@@ -138,7 +138,7 @@ header
 				color: black;
 			}
 
-			#container__principal1 form input[type="submit"]
+			#container__principal1 form input[type="submit"], .hideOnDesktop
 			{
 				border:  solid 1px #F2F2F2 ;
 				border-radius: 0 15px 15px 0 ; 
@@ -147,6 +147,11 @@ header
 				color: white;
 				font-size: 1.1em;
 				background-color: #0065FC; 
+			}
+
+			.hideOnDesktop
+			{
+				display: none;
 			}
 
 /* Section Filtres*/
@@ -622,26 +627,133 @@ header
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 /*Media queries 320 à 420px*/
 
-@media screen and (max-width: 420px)
+@media screen (min-width: 320px) and (max-width: 420px)
 {
 	body
+	{
+		width: 100%;
+		max-width: 420px;
+	}
+
+	main
 	{
 		width: 100%;
 	}
 
 	header, main
 	{
-		margin: 0;
+		margin: 0 10px 0 10px;
 	}
+
+
+
 
 	/*header*/
 
 	header
 	{
-
+		display: flex;
+		flex-direction: column;
 	}
+
+	header nav
+	{
+		align-self: center;
+	}
+	header ul
+	{
+		margin: 0;
+		padding: 0;
+	}
+
+
+	.container__nav1
+	{
+		padding: 0;
+	}
+
+	.container__nav1__mobile2
+	{
+		position: absolute;
+    	top: 40px;
+    	left: 290px;
+	}
+
+	.container__nav1__mobile1, .container__nav2
+	{
+			padding-top: 25px;
+			padding-bottom: 15px;
+	}
+
+	.container__nav1__mobile1
+	{
+		margin-right: 55px;
+	}
+
+	 .container__nav2
+	 {
+	 	margin-left: 55px;
+	 }
+
+	 .container__nav1__mobile1:hover
+			{
+				border-bottom: solid #0065FC 4px;
+				border-top: none;
+			}
+
+			.container__nav2:hover
+			{
+				border-bottom: solid black 4px;
+				border-top: none;
+			}
+
+
+	/*form et titre*/
+
+	#container__principal1 h1
+	{
+		width: 100%;
+	}
+
+	#container__principal1 p
+	{
+		margin-bottom: 25px;
+	}
+
+	#container__principal1 form
+	{
+		margin-bottom: 25px;
+		margin-left: 25px;
+	}
+
+	#container__principal1 form input[type="submit"]
+	{
+		display: none;
+	}
+
+	.hideOnDesktop
+	{
+		display: block;
+	}
+
+
+
+
+
+
 
 
 	/*Filtres*/
@@ -654,8 +766,49 @@ header
 
 	.container__filtres h3
 	{
-		margin-right: 50px; /*s'applique pas ?*/
+		margin-right: 200px; 
 	}
+
+	.filter
+	{
+		margin: 5px;
+		padding-right: 10px;
+	}
+
+	#container__principal2 h3
+	{
+		margin-right: 150px; 
+	}
+
+	#container__principal2 a
+	{
+		font-size: 1em;
+	}
+
+	#container__principal2 .filter span
+	{
+		padding: 10px;
+	}
+
+
+	.container__info p
+	{
+		margin-top: 30px;
+	}
+
+	.container__info
+	{
+		margin: 10px;
+		width: 85%;
+	}
+
+	.large
+	{
+		width: 100%;
+	}
+
+
+
 
 
 	/*Hebergement*/
@@ -665,7 +818,9 @@ header
 		flex-direction: column-reverse;
 	}
 
-	aside
+
+
+	.container__principal1 aside
 	{
 		width: 100%;
 	}
@@ -674,6 +829,55 @@ header
 	{
 		background-color: white; /*s'applique pas*/
 	}
+
+	.container__secondaire1__figure
+	{
+		width: 315px;
+		height: 135px;
+	}
+
+	.container__secondaire1__figure figcaption
+	{
+		font-size: 1em;
+	}
+
+	.container__secondaire1__figure p
+	{
+		margin-right: 10px;
+	}
+
+	.container__secondaire1__figure p:last-child
+	{
+		margin-top: -10px;
+	}
+
+	.container__principal1__div2
+	{
+		flex-direction: column;
+		flex-wrap: nowrap;
+	}
+
+	.container__principal1__figure
+	{
+		width: 330px;
+		margin: 10px;
+	}
+
+	.container__principal1__figure img
+	{
+		height: 110px;
+	}
+
+	/*activités*/
+
+	.container__principal2__div1
+	{
+		flex-direction: column;
+		width: 100%;
+	}
+	
+
+
 
 
 
