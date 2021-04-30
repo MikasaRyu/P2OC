@@ -640,25 +640,19 @@ header
 
 /*Media queries 320 à 420px*/
 
-@media screen (min-width: 320px) and (max-width: 420px)
+@media screen and (min-width: 320px) and (max-width: 420px)
 {
 	body
 	{
 		width: 100%;
+		min-width: 320px;
 		max-width: 420px;
-	}
-
-	main
-	{
-		width: 100%;
 	}
 
 	header, main
 	{
-		margin: 0 10px 0 10px;
+		margin: 0 10px 0 0px;
 	}
-
-
 
 
 	/*header*/
@@ -667,16 +661,15 @@ header
 	{
 		display: flex;
 		flex-direction: column;
+		position: relative;
 	}
 
-	header nav
-	{
-		align-self: center;
-	}
+
 	header ul
 	{
 		margin: 0;
 		padding: 0;
+		justify-content: space-between;
 	}
 
 
@@ -688,25 +681,15 @@ header
 	.container__nav1__mobile2
 	{
 		position: absolute;
-    	top: 40px;
-    	left: 290px;
+    	top: 24%;
+    	left: 70%;
 	}
 
 	.container__nav1__mobile1, .container__nav2
 	{
-			padding-top: 25px;
-			padding-bottom: 15px;
+		padding-top: 25px;
+		padding-bottom: 15px;
 	}
-
-	.container__nav1__mobile1
-	{
-		margin-right: 55px;
-	}
-
-	 .container__nav2
-	 {
-	 	margin-left: 55px;
-	 }
 
 	 .container__nav1__mobile1:hover
 			{
@@ -735,8 +718,9 @@ header
 
 	#container__principal1 form
 	{
+		display: flex;
 		margin-bottom: 25px;
-		margin-left: 25px;
+		justify-content: center;
 	}
 
 	#container__principal1 form input[type="submit"]
@@ -753,20 +737,13 @@ header
 
 
 
-
-
-
 	/*Filtres*/
 
 	.container__filtres
 	{
 		flex-wrap: wrap;
 		margin: 0;
-	}
-
-	.container__filtres h3
-	{
-		margin-right: 200px; 
+		margin-left: 5px;
 	}
 
 	.filter
@@ -777,12 +754,13 @@ header
 
 	#container__principal2 h3
 	{
-		margin-right: 150px; 
+		margin-right: 200px; 
+		margin-bottom: 5px;
 	}
 
 	#container__principal2 a
 	{
-		font-size: 1em;
+		font-size: 0.8em;
 	}
 
 	#container__principal2 .filter span
@@ -794,11 +772,12 @@ header
 	.container__info p
 	{
 		margin-top: 30px;
+		font-size: 0.8em;
 	}
 
 	.container__info
 	{
-		margin: 10px;
+		margin: 10px 5px 10px 10px;
 		width: 85%;
 	}
 
@@ -818,21 +797,34 @@ header
 		flex-direction: column-reverse;
 	}
 
-
+	.container__principal1__div__320px
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
 
 	.container__principal1 aside
 	{
 		width: 100%;
+		min-width: 100%;
+		max-width: 100%;
+		height: 100%;
+		margin: 0;
+		border-radius: 0;
+		margin-top: 20px;
 	}
 
-	.container__principal1__div1
+	aside #title
 	{
-		background-color: white; /*s'applique pas*/
+		width: 100%;
+		justify-content: space-around;
 	}
 
 	.container__secondaire1__figure
 	{
-		width: 315px;
+		width: 90%;
 		height: 135px;
 	}
 
@@ -851,6 +843,21 @@ header
 		margin-top: -10px;
 	}
 
+
+
+
+
+	.container__principal1__div1
+	{
+		background-color: white;
+		width: 100%;
+		min-width: 100%;
+		max-width: 100%;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
 	.container__principal1__div2
 	{
 		flex-direction: column;
@@ -859,7 +866,8 @@ header
 
 	.container__principal1__figure
 	{
-		width: 330px;
+		width: 90%;
+		height: 190px;
 		margin: 10px;
 	}
 
@@ -868,15 +876,53 @@ header
 		height: 110px;
 	}
 
+	
+
+
+
 	/*activités*/
+
+	.container__principal2 
+	{
+    	margin: 5px;
+    }
 
 	.container__principal2__div1
 	{
 		flex-direction: column;
 		width: 100%;
+		min-width: 100%;
+		max-width: 100%;
+		height: 100%;
+		margin: 0;
+		border-radius: 0;
+		margin-top: 20px;
 	}
 	
+	.container__principal2__div1 figure
+	{
+		margin: 0;
+		width: 90%;
+		height: 220px;
+	}
 
+	.container__principal2__div1 img
+	{
+		height: 150px;
+		width: 100%;
+	}
+
+
+
+	/*Footer*/
+
+
+	.container__principal3
+	{
+		display: flex;
+		flex-direction: column;
+		padding: 0;
+	}
 
 
 }
