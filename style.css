@@ -438,6 +438,9 @@ font-weight: bold;
 margin: 5px 50px 10px 15px ;
 }
 
+
+
+
 /*Section Activités à marseille*/
 
 .container__principal2
@@ -623,6 +626,24 @@ color: black;
 {
 margin-left: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -836,13 +857,15 @@ justify-content: space-around;
 
 .container__secondaire1__figure
 {
-width: 90%;
+width: 88%;
 height: 135px;
 }
+
 
 .container__secondaire1__figure figcaption
 {
 font-size: 0.8em;
+width: 60%;
 }
 
 .container__secondaire1__figure figcaption p:first-child
@@ -919,9 +942,13 @@ margin-top: 20px;
 .container__principal2__div1 figure
 {
 margin: 0;
-width: 85%;
+width: 90%;
 height: 220px;
-margin-left: 32px;
+}
+
+.container__principal2__div1 a
+{
+margin: 0;
 }
 
 .container__principal2__div1 img
@@ -929,6 +956,24 @@ margin-left: 32px;
 height: 150px;
 width: 100%;
 }
+
+.container__principal2__figure1, .container__principal2__figure2, .container__principal2__figure3, .container__principal2__div2
+{
+	width: 100%;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+.container__left .container__principal2__figure2 figure, .container__right .container__principal2__figure3 figure
+{
+	margin-bottom: 0;
+}
+
+.container__principal2__div2
+{
+margin: 0;
+}
+
 
 
 
