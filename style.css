@@ -699,6 +699,7 @@ justify-content: space-between;
 padding: 0;
 }
 
+
 .container__nav1__mobile2
 {
 position: absolute;
@@ -729,7 +730,7 @@ border-top: none;
 
 #container__principal1 h1
 {
-width: 91%;
+width: 93%;
 }
 
 #container__principal1 p
@@ -756,7 +757,7 @@ display: block;
 
 #container__principal1 form input#ville
 {
-width: 200px;
+width: 70%;
 font-size: 0.7em;
 }
 
@@ -771,7 +772,7 @@ font-size: 0.7em;
 {
 flex-wrap: wrap;
 margin: 0;
-margin-left: 5px;
+margin-left: 5%;
 }
 
 .filter
@@ -922,10 +923,6 @@ height: 110px;
 
 /*activités*/
 
-.container__principal2 
-{
-margin: 5px;
-}
 
 .container__principal2__div1
 {
@@ -944,6 +941,7 @@ margin-top: 20px;
 margin: 0;
 width: 90%;
 height: 220px;
+margin-left: 15px; /*pour compenser marge de droite*/
 }
 
 .container__principal2__div1 a
