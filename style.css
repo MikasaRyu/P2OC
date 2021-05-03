@@ -941,7 +941,7 @@ margin-top: 20px;
 margin: 0;
 width: 90%;
 height: 220px;
-margin-left: 15px; /*pour compenser marge de droite*/
+margin-left: 16px; /*pour compenser marge de droite*/
 }
 
 .container__principal2__div1 a
