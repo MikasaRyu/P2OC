@@ -176,6 +176,14 @@ padding-right: 15px;
 
 }
 
+.filter:hover
+{
+	background-color: #0065FC;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+
 #container__principal2 a
 {
 text-decoration: none;
@@ -998,6 +1006,253 @@ margin-left: 10px;
 	max-width: 420px;
 	margin: 0;
 }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 990px)
+{
+
+body
+{
+	width: auto;
+	min-width: 768px;
+	max-width: 990px;
+}
+main
+{
+	margin: 0;
+}
+
+
+/*header*/
+
+#logo
+{
+    width: 150px;
+    height: 60px; 
+}
+
+header
+{
+position: relative;
+}
+
+header nav
+{
+	position: relative;
+	left: 5%;
+}
+
+
+
+
+/*Section recherche*/
+
+#container__principal1 h1
+{
+	font-size: 30px;
+	width: 90%;
+}
+
+#container__principal1 p
+{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+#container__principal1 form
+{
+	display: flex;
+	margin-bottom: 20px;
+	justify-content: flex-start;
+}
+
+#container__principal1 form input#ville
+{
+width: 35%;
+font-size: 17px;
+}
+#container__principal1 form label
+{
+    width: 5%;
+    text-align: center;
+    font-size: 20px;
+}
+
+#container__principal1 form input[type="submit"]
+{
+	font-size: 20px;
+}
+
+
+
+
+/*Section filtres*/
+
+.container__filtres
+{
+	width: 93%;
+	flex-wrap: wrap;
+	max-width: none;
+}
+
+
+#container__principal2 .filter span
+{
+	font-size: 20px;
+}
+
+.container__info
+{
+	font-size: 15px;
+}
+
+.large
+{
+	width: auto;
+}
+
+.filter
+{
+	margin: 10px;
+}
+
+
+
+/*Section Hebergements*/
+
+.container__principal1
+{
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.container__principal1__div1
+{
+	width: 96%;
+	min-width: auto;
+	max-width: none;
+	height: auto;
+	margin: 0;
+}
+
+.container__principal1 aside
+{
+	width: 96%;
+	min-width: auto;
+	max-width: none;
+	height: auto;
+	align-items: center;
+	padding: 15px;
+    margin: 25px 0 0 0; 
+}
+
+/*Section activités*/
+
+.container__principal2__div1
+{
+	flex-wrap: wrap;
+	justify-content:flex-start;
+	width: 100%;
+	min-width: 768px;
+	max-width: 990px;
+}
+
+.container__principal2__figure1
+{
+	width: 340px;
+}
+
+.container__principal2__figure2
+{
+	width: 340px;
+}
+
+.container__principal2__figure3
+{
+	width: 340px;
+}
+
+.container__principal2__div2
+{
+	width: 340px;
+}
+
+
+
+
+
+/*Footer*/
+
+
+.container__principal3 div
+{
+	margin: 0;
+	width: 22%;
+}
+
+.container__principal3
+{
+	justify-content: space-between;
+	padding: 50px;	
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
 
