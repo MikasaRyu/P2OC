@@ -765,8 +765,13 @@ display: block;
 
 #container__principal1 form input#ville
 {
-width: 70%;
+width: 65%;
 font-size: 0.7em;
+}
+
+#container__principal1 form label
+{
+	margin-left: 0;
 }
 
 
@@ -780,7 +785,7 @@ font-size: 0.7em;
 {
 flex-wrap: wrap;
 margin: 0;
-margin-left: 5%;
+margin-left: 3%;
 }
 
 .filter
@@ -1083,16 +1088,17 @@ header nav
 	display: flex;
 	margin-bottom: 20px;
 	justify-content: flex-start;
+	margin-left: 15px;
 }
 
 #container__principal1 form input#ville
 {
-width: 35%;
+width: 270px;
 font-size: 17px;
 }
 #container__principal1 form label
 {
-    width: 5%;
+    width: 20px;
     text-align: center;
     font-size: 20px;
 }
@@ -1170,23 +1176,13 @@ font-size: 17px;
 .container__principal2__div1
 {
 	flex-wrap: wrap;
-	justify-content:flex-start;
+	justify-content:center;
 	width: 100%;
-	min-width: 768px;
-	max-width: 990px;
+	min-width: auto;
+	max-width: none;
 }
 
 .container__principal2__figure1
-{
-	width: 340px;
-}
-
-.container__principal2__figure2
-{
-	width: 340px;
-}
-
-.container__principal2__figure3
 {
 	width: 340px;
 }
@@ -1195,6 +1191,7 @@ font-size: 17px;
 {
 	width: 340px;
 }
+
 
 
 
