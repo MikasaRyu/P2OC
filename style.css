@@ -6,6 +6,14 @@
 	src: url('Font/Raleway/Raleway-VariableFont_wght.ttf');
 }
 
+@font-face
+{
+	font-family: 'ralewaybold';
+	src: url('Font/Raleway/static/Raleway-ExtraBold.ttf');
+}
+
+
+
 body
 {
 margin: 0;
@@ -73,7 +81,7 @@ text-decoration: none;
 
 header ul li:last-of-type
 {
-font-weight: bold;
+font-family: ralewaybold;
 }
 
 .container__nav1, .container__nav2
@@ -109,7 +117,7 @@ margin-bottom: 10px;
 #container__principal1 h1
 {
 font-size: 1.6em;
-font-weight: bold;
+font-family: ralewaybold;
 }
 
 #container__principal1 p
@@ -143,7 +151,7 @@ padding: 10px 50px 10px 15px;
 
 #ville::placeholder
 {
-font-weight: bold;
+font-family: ralewaybold;
 font-size: 1.2em;
 color: black;
 }
@@ -170,7 +178,7 @@ display: none;
 {
 margin-right: 20px;
 font-size: 1.2em;
-font-weight: bold;
+font-family: ralewaybold;
 margin-left: 10px;
 }
 
@@ -189,7 +197,7 @@ padding-right: 15px;
 .filter:hover
 {
 	background-color: #0065FC;
-	font-weight: bold;
+	font-family: ralewaybold;
 	text-decoration: underline;
 }
 
@@ -197,7 +205,7 @@ padding-right: 15px;
 #container__principal2 a
 {
 text-decoration: none;
-font-weight: bold;
+font-family: ralewaybold;
 font-size: 1.2em;
 }
 
@@ -215,7 +223,7 @@ margin: -3px;
 {
 padding: 15px;
 color: black;
-font-weight: bold;
+font-family: ralewaybold;
 }
 
 .container__filtres
@@ -281,6 +289,7 @@ margin-left: 0;
 {
 font-size: 1.4em;
 margin-left: 20px;
+font-family: ralewaybold;
 }
 
 #more
@@ -292,7 +301,7 @@ margin: 20px;
 {
 text-decoration: none;
 color: black;
-font-weight: bold;
+font-family: ralewaybold;
 font-size: 1.2em;
 }
 
@@ -337,7 +346,7 @@ font-size: 1.1em;
 
 .container__principal1__div2 figcaption p:first-child
 {
-font-weight: bold;
+font-family: ralewaybold;
 }
 
 .container__principal1__div2 p
@@ -376,6 +385,7 @@ margin-top: 15px;
 {
 font-size: 1.4em;
 text-align: left;
+font-family: ralewaybold;
 }
 
 #title i
@@ -446,7 +456,7 @@ width: 230px;
 
 .container__secondaire1__figure figcaption p:first-child
 {
-font-weight: bold;
+font-family: ralewaybold;
 }
 
 
@@ -487,7 +497,7 @@ text-decoration: none;
 
 .container__principal2__div1 p
 {
-font-weight: bold;
+font-family: ralewaybold;
 font-size: 1.1em;
 color: black;
 margin: 15px;
@@ -496,6 +506,7 @@ margin: 15px;
 .container__principal2 h2
 {
 font-size: 1.4em;
+font-family: ralewaybold;
 }
 
 .container__principal2 a
@@ -630,6 +641,11 @@ margin-top: 50px;
 padding: 50px 50px 50px 40px;
 background-color: #F2F2F2;
 justify-content: space-between;
+}
+
+.container__principal3 h3
+{
+	font-family: ralewaybold;
 }
 
 .container__principal3 div:last-child
