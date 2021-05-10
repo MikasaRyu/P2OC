@@ -1,5 +1,11 @@
 /* Body */
 
+@font-face
+{
+	font-family: 'raleway' ;
+	src: url('Font/Raleway/Raleway-VariableFont_wght.ttf');
+}
+
 body
 {
 margin: 0;
@@ -446,7 +452,7 @@ font-weight: bold;
 
 .container__secondaire1__figure p
 {
-margin: 5px 50px 10px 15px ;
+margin: 5px 45px 10px 15px ;
 }
 
 
@@ -484,7 +490,7 @@ text-decoration: none;
 font-weight: bold;
 font-size: 1.1em;
 color: black;
-margin: 20px;
+margin: 15px;
 }
 
 .container__principal2 h2
@@ -779,6 +785,7 @@ display: block;
 {
 width: 65%;
 font-size: 0.7em;
+padding: 10px 30px 10px 15px
 }
 
 #container__principal1 form label
