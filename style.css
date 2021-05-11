@@ -89,16 +89,9 @@ font-family: ralewaybold;
 padding-top: 50px;
 }
 
-.container__nav1:hover
+.container__nav1:hover, .container__nav2:hover
 {
 border-top: solid #0065FC 4px;
-
-}
-
-.container__nav2:hover
-{
-border-top: solid #0065FC 4px;
-
 }
 
 .container__nav2 a:hover
